@@ -1,0 +1,12 @@
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPG Custom Windows Controls\bin\Release\SWRPG Custom Windows Controls.dll
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPG Custom Windows Controls\bin\Release\SWRPG Custom Windows Controls.pdb
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPG Custom Windows Controls\bin\Release\StarWarsClasses.dll
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPG Custom Windows Controls\bin\Release\StarWarsClasses.pdb
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPG Custom Windows Controls\obj\Release\SWRPG Custom Windows Controls.csprojResolveAssemblyReference.cache
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPG Custom Windows Controls\obj\Release\SWRPG_Custom_Windows_Controls.Character_Armor_Control.resources
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPG Custom Windows Controls\obj\Release\SWRPG_Custom_Windows_Controls.Character_Equipment_Control.resources
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPG Custom Windows Controls\obj\Release\SWRPG_Custom_Windows_Controls.CharacterSkillControl.resources
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPG Custom Windows Controls\obj\Release\SWRPG_Custom_Windows_Controls.Character_Weapon_Control.resources
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPG Custom Windows Controls\obj\Release\SWRPG Custom Windows Controls.csproj.GenerateResource.Cache
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPG Custom Windows Controls\obj\Release\SWRPG Custom Windows Controls.dll
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPG Custom Windows Controls\obj\Release\SWRPG Custom Windows Controls.pdb

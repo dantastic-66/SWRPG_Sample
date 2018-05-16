@@ -1,0 +1,13 @@
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPG Custome Windows Controls Testing\bin\Release\SWRPG Custome Windows Controls Testing.exe.config
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPG Custome Windows Controls Testing\bin\Release\SWRPG Custome Windows Controls Testing.exe
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPG Custome Windows Controls Testing\bin\Release\SWRPG Custome Windows Controls Testing.pdb
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPG Custome Windows Controls Testing\bin\Release\StarWarsClasses.dll
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPG Custome Windows Controls Testing\bin\Release\SWRPG Custom Windows Controls.dll
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPG Custome Windows Controls Testing\bin\Release\StarWarsClasses.pdb
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPG Custome Windows Controls Testing\bin\Release\SWRPG Custom Windows Controls.pdb
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPG Custome Windows Controls Testing\obj\Release\SWRPG Custome Windows Controls Testing.csprojResolveAssemblyReference.cache
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPG Custome Windows Controls Testing\obj\Release\SWRPG_Custome_Windows_Controls_Testing.Form1.resources
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPG Custome Windows Controls Testing\obj\Release\SWRPG_Custome_Windows_Controls_Testing.Properties.Resources.resources
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPG Custome Windows Controls Testing\obj\Release\SWRPG Custome Windows Controls Testing.csproj.GenerateResource.Cache
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPG Custome Windows Controls Testing\obj\Release\SWRPG Custome Windows Controls Testing.exe
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPG Custome Windows Controls Testing\obj\Release\SWRPG Custome Windows Controls Testing.pdb
