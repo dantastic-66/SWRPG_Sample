@@ -1,0 +1,13 @@
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPGClassUnitTests\bin\Release\SWRPGClassUnitTests.dll
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPGClassUnitTests\bin\Release\SWRPGClassUnitTests.pdb
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPGClassUnitTests\bin\Release\StarWarsClasses.dll
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPGClassUnitTests\bin\Release\StarWarsRPG.exe
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPGClassUnitTests\bin\Release\GenericCharacterGenerator.exe
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPGClassUnitTests\bin\Release\Dice.dll
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPGClassUnitTests\bin\Release\StarWarsClasses.pdb
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPGClassUnitTests\bin\Release\StarWarsRPG.pdb
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPGClassUnitTests\bin\Release\GenericCharacterGenerator.pdb
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPGClassUnitTests\bin\Release\Dice.pdb
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPGClassUnitTests\obj\Release\SWRPGClassUnitTests.csprojResolveAssemblyReference.cache
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPGClassUnitTests\obj\Release\SWRPGClassUnitTests.dll
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\StarWarsRPG\SWRPGClassUnitTests\obj\Release\SWRPGClassUnitTests.pdb

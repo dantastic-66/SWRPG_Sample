@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SWRPG_Database">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=StarWarsRPGDB;Data Source=RSAT-JSPA-14\SQLEXPRESS;User ID=user;Password=password</ConnectString>
+    <IntegratedSecurity>true</IntegratedSecurity>
+  </ConnectionProperties>
+  <DataSourceID>d6cef9b1-8f41-4b6e-9d7c-6aa960bb4543</DataSourceID>
+</RptDataSource>

@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F6BB1063-9265-45E0-8115-1192D0A43329}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SWRPGClassUnitTests</RootNamespace>
+    <AssemblyName>SWRPGClassUnitTests</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <ItemGroup>
+    <Compile Include="AbilityTest.cs" />
+    <Compile Include="ArmorTest.cs" />
+    <Compile Include="ArmorTypeTest.cs" />
+    <Compile Include="BaseAttackTest.cs" />
+    <Compile Include="BookTest.cs" />
+    <Compile Include="CharacterClassLevelTest.cs" />
+    <Compile Include="CharacterLevelTest.cs" />
+    <Compile Include="CharacterSkillTest.cs" />
+    <Compile Include="ClassDefenseTypeTest.cs" />
+    <Compile Include="ClassLevelInfoTest.cs" />
+    <Compile Include="ClassTest.cs" />
+    <Compile Include="ConditionTrackTest.cs" />
+    <Compile Include="DefenseTest.cs" />
+    <Compile Include="DefenseTypeTest.cs" />
+    <Compile Include="EquipmentTest.cs" />
+    <Compile Include="ExtraClassItemTest.cs" />
+    <Compile Include="FeatPrerequisiteAbilityTest.cs" />
+    <Compile Include="FeatPrerequisiteDarkSideTest.cs" />
+    <Compile Include="FeatTest.cs" />
+    <Compile Include="ForcePowerDescriptorTest.cs" />
+    <Compile Include="ForcePowerTest.cs" />
+    <Compile Include="ForceSecretTest.cs" />
+    <Compile Include="ForceTechniqueTest.cs" />
+    <Compile Include="LanguageTest.cs" />
+    <Compile Include="ModifierTest.cs" />
+    <Compile Include="PhaseTest.cs" />
+    <Compile Include="PrestigeRequirementTest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RaceAbilityModifierTest.cs" />
+    <Compile Include="RaceDefenseTypeModifierTest.cs" />
+    <Compile Include="RaceTest.cs" />
+    <Compile Include="RangeTest.cs" />
+    <Compile Include="SizeDefenseModifierTest.cs" />
+    <Compile Include="SizeTest.cs" />
+    <Compile Include="SkillTest.cs" />
+    <Compile Include="SpeedTest.cs" />
+    <Compile Include="SubSkillTest.cs" />
+    <Compile Include="TalentPrerequisteAbilityTest.cs" />
+    <Compile Include="TalentTest.cs" />
+    <Compile Include="TalentTreeRequirementTest.cs" />
+    <Compile Include="TalentTreeSexRequirementTest.cs" />
+    <Compile Include="TalentTreeTest.cs" />
+    <Compile Include="TurnSegmentTest.cs" />
+    <Compile Include="WeaponTest.cs" />
+    <Compile Include="WeaponTypeTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StarWarsClasses\StarWarsClasses.csproj">
+      <Project>{cedd8079-c111-45f2-900b-478524cd57b3}</Project>
+      <Name>StarWarsClasses</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StarWarsRPG\StarWarsRPG.csproj">
+      <Project>{c54f208c-305d-4407-940a-d3991b375f6a}</Project>
+      <Name>StarWarsRPG</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
