@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C54F208C-305D-4407-940A-D3991B375F6A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StarWarsRPG</RootNamespace>
+    <AssemblyName>StarWarsRPG</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>StarWarsRPG.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Windows\assembly\GAC_MSIL\Microsoft.ReportViewer.Common\11.0.0.0__89845dcd8080cc91\Microsoft.ReportViewer.Common.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Windows\assembly\GAC_MSIL\Microsoft.ReportViewer.WinForms\11.0.0.0__89845dcd8080cc91\Microsoft.ReportViewer.WinForms.DLL</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsContainerObjects.cs" />
+    <Compile Include="frmAbilityDisplay .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbilityDisplay .Designer.cs">
+      <DependentUpon>frmAbilityDisplay .cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddCharacterLevel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddCharacterLevel.Designer.cs">
+      <DependentUpon>frmAddCharacterLevel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common.cs" />
+    <Compile Include="frmAddCharacterLevel_AbilityIncrease.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddCharacterLevel_AbilityIncrease.Designer.cs">
+      <DependentUpon>frmAddCharacterLevel_AbilityIncrease.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddCharacterLevel_ControlList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddCharacterLevel_ControlList.Designer.cs">
+      <DependentUpon>frmAddCharacterLevel_ControlList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddCharacterLevel_FeatSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddCharacterLevel_FeatSelection.Designer.cs">
+      <DependentUpon>frmAddCharacterLevel_FeatSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddCharacterLevel_LanguageSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddCharacterLevel_LanguageSelect.Designer.cs">
+      <DependentUpon>frmAddCharacterLevel_LanguageSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddCharacterLevel_ForcePowerSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddCharacterLevel_ForcePowerSelect.Designer.cs">
+      <DependentUpon>frmAddCharacterLevel_ForcePowerSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddCharacterLevel_ForceSecretSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddCharacterLevel_ForceSecretSelection.Designer.cs">
+      <DependentUpon>frmAddCharacterLevel_ForceSecretSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddCharacterLevel_ForceTechniqueSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddCharacterLevel_ForceTechniqueSelection.Designer.cs">
+      <DependentUpon>frmAddCharacterLevel_ForceTechniqueSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddCharacterLevel_SkillSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddCharacterLevel_SkillSelection.Designer.cs">
+      <DependentUpon>frmAddCharacterLevel_SkillSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddCharacterLevel_TalentSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddCharacterLevel_TalentSelection.Designer.cs">
+      <DependentUpon>frmAddCharacterLevel_TalentSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmArmor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmArmor.Designer.cs">
+      <DependentUpon>frmArmor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmArmorSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmArmorSelection.Designer.cs">
+      <DependentUpon>frmArmorSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCharacterGeneratorLOCAL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCharacterGeneratorLOCAL.Designer.cs">
+      <DependentUpon>frmCharacterGeneratorLOCAL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCharacterSkills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCharacterSkills.Designer.cs">
+      <DependentUpon>frmCharacterSkills.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCharCreate1GenerateScores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCharCreate1GenerateScores.Designer.cs">
+      <DependentUpon>frmCharCreate1GenerateScores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCharCreate2GetRace.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCharCreate2GetRace.Designer.cs">
+      <DependentUpon>frmCharCreate2GetRace.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEquipment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEquipment.Designer.cs">
+      <DependentUpon>frmEquipment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEquipmentSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEquipmentSelection.Designer.cs">
+      <DependentUpon>frmEquipmentSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFeat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFeat.Designer.cs">
+      <DependentUpon>frmFeat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmForcePower.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmForcePower.Designer.cs">
+      <DependentUpon>frmForcePower.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmModification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModification.Designer.cs">
+      <DependentUpon>frmModification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOrganization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOrganization.Designer.cs">
+      <DependentUpon>frmOrganization.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReportViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReportViewer.Designer.cs">
+      <DependentUpon>frmReportViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSearch.Designer.cs">
+      <DependentUpon>frmSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetClassAndLevel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetClassAndLevel.Designer.cs">
+      <DependentUpon>frmSetClassAndLevel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSkill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSkill.Designer.cs">
+      <DependentUpon>frmSkill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWeaponSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWeaponSelection.Designer.cs">
+      <DependentUpon>frmWeaponSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAbilityDisplay .resx">
+      <DependentUpon>frmAbilityDisplay .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddCharacterLevel.resx">
+      <DependentUpon>frmAddCharacterLevel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddCharacterLevel_AbilityIncrease.resx">
+      <DependentUpon>frmAddCharacterLevel_AbilityIncrease.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddCharacterLevel_ControlList.resx">
+      <DependentUpon>frmAddCharacterLevel_ControlList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddCharacterLevel_FeatSelection.resx">
+      <DependentUpon>frmAddCharacterLevel_FeatSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddCharacterLevel_LanguageSelect.resx">
+      <DependentUpon>frmAddCharacterLevel_LanguageSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddCharacterLevel_ForcePowerSelect.resx">
+      <DependentUpon>frmAddCharacterLevel_ForcePowerSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddCharacterLevel_ForceSecretSelection.resx">
+      <DependentUpon>frmAddCharacterLevel_ForceSecretSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddCharacterLevel_ForceTechniqueSelection.resx">
+      <DependentUpon>frmAddCharacterLevel_ForceTechniqueSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddCharacterLevel_SkillSelection.resx">
+      <DependentUpon>frmAddCharacterLevel_SkillSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddCharacterLevel_TalentSelection.resx">
+      <DependentUpon>frmAddCharacterLevel_TalentSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmArmor.resx">
+      <DependentUpon>frmArmor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmArmorSelection.resx">
+      <DependentUpon>frmArmorSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCharacterGeneratorLOCAL.resx">
+      <DependentUpon>frmCharacterGeneratorLOCAL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCharacterSkills.resx">
+      <DependentUpon>frmCharacterSkills.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCharCreate1GenerateScores.resx">
+      <DependentUpon>frmCharCreate1GenerateScores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCharCreate2GetRace.resx">
+      <DependentUpon>frmCharCreate2GetRace.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEquipment.resx">
+      <DependentUpon>frmEquipment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEquipmentSelection.resx">
+      <DependentUpon>frmEquipmentSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFeat.resx">
+      <DependentUpon>frmFeat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmForcePower.resx">
+      <DependentUpon>frmForcePower.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModification.resx">
+      <DependentUpon>frmModification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrganization.resx">
+      <DependentUpon>frmOrganization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReportViewer.resx">
+      <DependentUpon>frmReportViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSearch.resx">
+      <DependentUpon>frmSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetClassAndLevel.resx">
+      <DependentUpon>frmSetClassAndLevel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSkill.resx">
+      <DependentUpon>frmSkill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWeaponSelection.resx">
+      <DependentUpon>frmWeaponSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Miscellaneous\AppConfigIDs.xlsx" />
+    <None Include="Miscellaneous\CurrentFeatList.pdf" />
+    <None Include="Miscellaneous\CurrentFeatList.xls" />
+    <None Include="Miscellaneous\CurrentTalentList.pdf" />
+    <None Include="Miscellaneous\CurrentTalentList.xls" />
+    <None Include="Miscellaneous\FeatList.xlsx" />
+    <None Include="Miscellaneous\FeatPrereqs.xlsx" />
+    <None Include="Miscellaneous\ForceUnleasedData.xlsx" />
+    <None Include="Miscellaneous\MultipleFeatsTalents.xlsx" />
+    <None Include="Miscellaneous\RaceSpecialAbilities.xlsx" />
+    <None Include="Miscellaneous\SkillSubSkill.xlsx" />
+    <None Include="Miscellaneous\SkillSubSkillAbilityExport.xls" />
+    <None Include="Miscellaneous\Talents Needing Trees.xls" />
+    <None Include="Miscellaneous\TalentTalentTreeTurnSegment.xls" />
+    <None Include="Miscellaneous\TalentTreeTalentInDB.xls" />
+    <None Include="Miscellaneous\TalentTreeTalents.xlsx" />
+    <None Include="NewReport.rdl" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Content Include="Reports\zzCharacter.rdl" />
+    <Content Include="zzCharacter.rdl" />
+    <None Include="zzBlankReport.rdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Miscellaneous\AllSprocsScript.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Dice\Dice\Dice.csproj">
+      <Project>{1c019884-c261-45d8-a639-37f4864ee44d}</Project>
+      <Name>Dice</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GenericCharacterGenerator\GenericCharacterGenerator.csproj">
+      <Project>{895aea1c-a376-4b41-847f-2274b3383330}</Project>
+      <Name>GenericCharacterGenerator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StarWarsClasses\StarWarsClasses.csproj">
+      <Project>{cedd8079-c111-45f2-900b-478524cd57b3}</Project>
+      <Name>StarWarsClasses</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SWRPG Custom Windows Controls\SWRPG Custom Windows Controls.csproj">
+      <Project>{A7530FD6-6635-4B11-A224-9C1747CFE64C}</Project>
+      <Name>SWRPG Custom Windows Controls</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
