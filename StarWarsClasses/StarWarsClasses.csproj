@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CEDD8079-C111-45F2-900B-478524CD57B3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StarWarsClasses</RootNamespace>
+    <AssemblyName>StarWarsClasses</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="adodb, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ability.cs" />
+    <Compile Include="Armor.cs" />
+    <Compile Include="CharacterEquipment.cs" />
+    <Compile Include="EquipmentType.cs" />
+    <Compile Include="ItemAvailabilityType.cs" />
+    <Compile Include="ArmorType.cs" />
+    <Compile Include="BaseAttack.cs" />
+    <Compile Include="BaseValidation.cs" />
+    <Compile Include="Book.cs" />
+    <Compile Include="Character.cs" />
+    <Compile Include="CharacterAbility.cs" />
+    <Compile Include="CharacterArmor.cs" />
+    <Compile Include="CharacterClassLevel.cs" />
+    <Compile Include="CharacterLevel.cs" />
+    <Compile Include="CharacterSkill.cs" />
+    <Compile Include="CharacterWeapon.cs" />
+    <Compile Include="Class.cs" />
+    <Compile Include="ClassDefenseType.cs" />
+    <Compile Include="ClassLevelInfo.cs" />
+    <Compile Include="ConditionTrack.cs" />
+    <Compile Include="DatabaseConnection.cs" />
+    <Compile Include="CharacterDefense.cs" />
+    <Compile Include="DefenseType.cs" />
+    <Compile Include="Modification.cs" />
+    <Compile Include="ModificationClass.cs" />
+    <Compile Include="ModificationType.cs" />
+    <Compile Include="Equipment.cs" />
+    <Compile Include="ExtraClassItem.cs" />
+    <Compile Include="Feat.cs" />
+    <Compile Include="FeatPrereqORCondition.cs" />
+    <Compile Include="FeatPrerequisiteAbility.cs" />
+    <Compile Include="FeatPrerequisiteDarkSide.cs" />
+    <Compile Include="ForcePower.cs" />
+    <Compile Include="ForcePowerDescriptor.cs" />
+    <Compile Include="ForceSecret.cs" />
+    <Compile Include="ForceTechnique.cs" />
+    <Compile Include="ForceTradition.cs" />
+    <Compile Include="Language.cs" />
+    <Compile Include="Modifier.cs" />
+    <Compile Include="Organization.cs" />
+    <Compile Include="OrganizationRank.cs" />
+    <Compile Include="OrganizationScale.cs" />
+    <Compile Include="OrganizationType.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="RaceFeatConditionalFeat.cs" />
+    <Compile Include="RaceLanguage.cs" />
+    <Compile Include="RaceSkillConditionalFeat.cs" />
+    <Compile Include="RaceSpecialAbility.cs" />
+    <Compile Include="TalentPrereqORCondition.cs" />
+    <Compile Include="Phase.cs" />
+    <Compile Include="PrestigeRequirement.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Race.cs" />
+    <Compile Include="RaceAbilityModifier.cs" />
+    <Compile Include="RaceDefenseTypeModifier.cs" />
+    <Compile Include="Range.cs" />
+    <Compile Include="Size.cs" />
+    <Compile Include="SizeDefenseModifier.cs" />
+    <Compile Include="SizeSkillModifier.cs" />
+    <Compile Include="Speed.cs" />
+    <Compile Include="TalentTreeRequirement.cs" />
+    <Compile Include="TalentTreeSexRequirement.cs" />
+    <Compile Include="Skill.cs" />
+    <Compile Include="SubSkill.cs" />
+    <Compile Include="Talent.cs" />
+    <Compile Include="TalentPrerequisteAbility.cs" />
+    <Compile Include="TalentTree.cs" />
+    <Compile Include="TurnSegment.cs" />
+    <Compile Include="Weapon.cs" />
+    <Compile Include="WeaponAmmo.cs" />
+    <Compile Include="WeaponDamageType.cs" />
+    <Compile Include="WeaponSize.cs" />
+    <Compile Include="WeaponType.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClassDiagrams\Character.cd" />
+    <None Include="ClassDiagrams\Feats.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

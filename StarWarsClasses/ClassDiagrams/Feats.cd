@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="StarWarsClasses.Feat">
+    <Position X="1" Y="0.75" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgBECRACQoOSAgBCEBAWAAEqEAABCkAAAAAAQKAAEBA=</HashCode>
+      <FileName>Feat.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="objBaseAttackPrerequisite" />
+      <Property Name="objFeatPrerequisiteDarkSide" />
+      <Property Name="objSkillPrerequisite" />
+      <Property Name="objRacePrerequisite" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StarWarsClasses.FeatPrerequisiteDarkSide">
+    <Position X="4.5" Y="1.25" Width="2" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACQAAAAAAAAAoBAAABAAUAAAAAAAAAAAAA=</HashCode>
+      <FileName>FeatPrerequisiteDarkSide.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarWarsClasses.BaseAttack">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAACAAACAAAAAAAyEEAAEAEAAAAAAAAAAAAQ=</HashCode>
+      <FileName>BaseAttack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarWarsClasses.Skill">
+    <Position X="7.25" Y="3.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAACAAAAAAQAAAQIBAgRAgFAAAGAABAAAEAA=</HashCode>
+      <FileName>Skill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarWarsClasses.Race" Collapsed="true">
+    <Position X="3.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAA0EACAhAAIQEEIACACAkACAEAAAAgpAIIAQAA=</HashCode>
+      <FileName>Race.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarWarsClasses.Book">
+    <Position X="5" Y="6.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AABACAAAAASAgAAAAAgAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
